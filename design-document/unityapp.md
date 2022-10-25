@@ -28,7 +28,7 @@ FMP Unity Application（简称UnityApp）作为FMP解决方案中的视觉呈现
 
 在UnityApp的数据持久化路径下，可以存在多个虚拟环境，在应用启动的时候，可以通过配置文件或命令行参数，指定激活一个虚拟环境作为此次启动的数据目录。
 
-### 升级（Upgrade）
+### 应用升级（Application Upgrade）
 
 FMP构建出的标准模块，在发布后，会存放在仓库中（Repository），在UnityApp运行时，可以通过模块的更新，从仓库中获取指定版本的模块。
 
