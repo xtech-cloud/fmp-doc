@@ -59,9 +59,13 @@ TODO
 
 
 
-### 资源推送（Assets Push）
+### 资源聚合（Asset Syndication）
 
 TODO
+
+
+
+
 
 ### 生命周期
 
