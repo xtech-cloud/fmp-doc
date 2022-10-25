@@ -28,17 +28,27 @@ FMP Unity Application（简称UnityApp）作为FMP解决方案中的视觉呈现
 
 在UnityApp的数据持久化路径下，可以存在多个虚拟环境，在应用启动的时候，可以通过配置文件或命令行参数，指定激活一个虚拟环境作为此次启动的数据目录。
 
-### 应用升级（Application Upgrade）
+### 应用升级 （Application Upgrade）
+
+TODO
+
+### 框架更新（Framework Update）
 
 FMP构建出的标准模块，在发布后，会存放在仓库中（Repository），在UnityApp运行时，可以通过模块的更新，从仓库中获取指定版本的模块。
 
+### 资源聚合（Asset Syndication）
+
+TODO
+
 ### 许可证（License）
+
+TODO
 
 ### 模块管理（Module Management）
 
 UnityApp本身只是一个基础应用，为了使用FMP方案中构建出的标准模块。需要在UnityApp启动后，将模块载入运行时。 FMP方案中的标准模块，均基于FMP-MVCS架构，具有统一的结构和接口。
 
-### 引导器 （Bootloader）
+### 定制化引导 （Customizable Bootload）
 
 FMP程序运行时，会按照定义的引导步骤（Steps），依次加载对应的模块，并加载模块对应的资源。
 
@@ -59,9 +69,7 @@ TODO
 
 
 
-### 资源聚合（Asset Syndication）
-
-TODO
+###
 
 
 
@@ -69,7 +77,7 @@ TODO
 
 ### 生命周期
 
-UnityApp的生命周期为启动（Launcher）、选择（Selector）、过场（Splash）、升级（Upgrade）、开始（Startup）五个阶段。
+UnityApp的生命周期为启动（Launcher）、选择（Selector）、过场（Splash）、框架更新（FrameworkUpdate）、资源聚合（Asset Syndication）、开始（Startup）六个阶段。
 
 *   启动阶段
 
@@ -94,14 +102,14 @@ UnityApp的生命周期为启动（Launcher）、选择（Selector）、过场�
     * 检查许可证。
     * 根据许可证状态决定是否进入升级阶段。
     * 在进入升级阶段前加载依赖项的配置文件。
-*   升级阶段
+*   框架更新阶段
 
     此阶段完成以下工作：
 
-    * 根据vendor中的更新配置文件中的更新策略进行升级。
-    * 升级过程会将所有的更新文件存放到临时文件夹中。
-    * 升级成功后，使用临时文件加中的文件覆盖需要升级的文件。
-    * 升级失败后，不做任何数据的更改。
+    * 根据vendor中的更新配置文件中的更新策略进行更新。
+    * 更新过程会将所有的更新文件存放到临时文件夹中。
+    * 更新成功后，使用临时文件加中的文件覆盖需要更新的文件。
+    * 更新失败后，不做任何数据的更改。
     * 进入开始阶段。
 *   开始阶段
 
