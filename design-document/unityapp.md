@@ -77,7 +77,7 @@ TODO
 
 ### 生命周期
 
-UnityApp的生命周期为启动（Launcher）、选择（Selector）、过场（Splash）、框架更新（Framework Update）、资源聚合（Asset Syndication）、开始（Startup）六个阶段。
+UnityApp的生命周期为启动（Launcher）、选择（Selector）、过场（Splash）、框架更新（FrameworkUpdate）、资源聚合（Asset Syndication）、开始（Startup）六个阶段。
 
 *   启动阶段
 
@@ -106,17 +106,10 @@ UnityApp的生命周期为启动（Launcher）、选择（Selector）、过场�
 
     此阶段完成以下工作：
 
-    * 根据vendor中的配置中的更新策略进行更新。
+    * 根据vendor中的更新配置文件中的更新策略进行更新。
     * 更新过程会将所有的更新文件存放到临时文件夹中。
     * 更新成功后，使用临时文件加中的文件覆盖需要更新的文件。
     * 更新失败后，不做任何数据的更改。
-    * 进入资源聚合阶段。
-*   资源聚合阶段
-
-    此阶段完成以下工作：
-
-    * 根据vendor中的配置中的更新策略进行更新。
-    * 更新资源文件夹中的文件。
     * 进入开始阶段。
 *   开始阶段
 
