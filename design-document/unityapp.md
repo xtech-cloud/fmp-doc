@@ -10,7 +10,7 @@ FMP Unity Application（简称UnityApp）作为FMP解决方案中的视觉呈现
 
 
 
-## Features （功能特性）
+## 功能特性（Features）
 
 ### 虚拟环境（Vendor）
 
@@ -69,11 +69,67 @@ TODO
 
 
 
-###
+## 架构设计 （Architecture Design）
+
+### 架构总览
+
+FMP-UnityApp使用模块化动态加载作为核心技术。在程序运行时，动态加载指定的程序集、配置、资源等文件。
+
+<figure><img src="../.gitbook/assets/FMP-UnityApp架构图1.jpg" alt=""><figcaption></figcaption></figure>
+
+一个Unity项目最大化构建完成的模块，包含以下内容：
+
+* proto程序集
+
+protobuf定义的接口编译完成的程序集，用于同后端进行网络通信。被Unity程序集引用。
+
+* bridge程序集
+
+mvcs中视图层的桥接接口，用于mvcs程序集适配不用的UI系统。被Unity程序集引用。
+
+* mvcs程序集
+
+数据、视图、控制、服务四层核心框架，用于运行时将所有模块统合在一起，为跨模块跨层访问提供支撑。被Unity程序集引用。
+
+* Unity程序集
+
+Unity项目的编译完成的程序集。包含Unity层级的业务逻辑。
+
+* xml配置文件
+
+Unity程序集使用的配置文件，包含样式的定义。
+
+* json资源目录文件
+
+Unity程序集使用的资源文件的清单，用于Unity程序集加载文本、图片、视频等文件内容。
+
+* windows资源包
+
+Unity程序使用的Windows平台的AssetBundle。
+
+* osx资源包
+
+Unity程序使用的OSX平台的AssetBundle。
+
+* linux资源包
+
+Unity程序使用的Linux平台的AssetBundle。
+
+* android资源包
+
+Unity程序使用的Android平台的AssetBundle。
+
+* ios资源包
+
+Unity程序使用的IOS平台的AssetBundle。
+
+* webgl资源包
+
+Unity程序使用的WebGL平台的AssetBundle。
 
 
 
-
+## 流程设计（Design）
 
 ### 生命周期
 
