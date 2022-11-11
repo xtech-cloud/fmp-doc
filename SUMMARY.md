@@ -11,12 +11,6 @@
 * [DaemonApp](design-document/daemonapp.md)
 * [ShieldApp](design-document/shieldapp.md)
 
-## Development Guide
-
-* [Environment](development-guide/environment.md)
-* [Cli](development-guide/cli.md)
-* [UnityApp](development-guide/unityapp.md)
-
 ## Deploy Guide
 
 * [Environment](deploy-guide/environment.md)
@@ -33,6 +27,12 @@
 * [BlazorApp](user-manual/blazorapp.md)
 * [MauiApp](user-manual/mauiapp.md)
 * [XRApp](user-manual/xrapp.md)
+
+## Development Guide
+
+* [Environment](development-guide/environment.md)
+* [Cli](development-guide/cli.md)
+* [UnityApp](development-guide/unityapp.md)
 
 ## Module Hub
 
