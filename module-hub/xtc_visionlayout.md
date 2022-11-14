@@ -66,7 +66,13 @@ TODO
 
 ## 消息订阅
 
-TODO
+* /XTC/VisionLayout/ToolBar/Popup
+
+此消息将打开工具栏
+
+| 参数  | 类型     | 说明     |
+| --- | ------ | ------ |
+| uid | string | 实例的uid |
 
 ## 依赖插件&#x20;
 
