@@ -40,5 +40,6 @@
 * [XTC\_Vendor](module-hub/xtc\_vendor.md)
 * [XTC\_Assloud](module-hub/xtc\_assloud.md)
 * [XTC\_VisionLayout](module-hub/xtc\_visionlayout.md)
+* [XTC\_IntegrationBoard](module-hub/xtc\_integrationboard.md)
 * [XTC\_VRLobby](module-hub/xtc\_vrlobby.md)
 * [XTC\_Hotspot2D](module-hub/xtc\_hotspot2d.md)
