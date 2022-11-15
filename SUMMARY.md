@@ -5,6 +5,7 @@
 ## Design Document
 
 * [Cli](design-document/cli.md)
+* [Assloud](design-document/assloud.md)
 * [UnityApp](design-document/unityapp.md)
 * [BlazorApp](design-document/blazorapp.md)
 * [MauiApp](design-document/mauiapp.md)
