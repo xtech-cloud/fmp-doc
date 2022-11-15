@@ -11,6 +11,7 @@
 * [MauiApp](design-document/mauiapp.md)
 * [DaemonApp](design-document/daemonapp.md)
 * [ShieldApp](design-document/shieldapp.md)
+* [AssistantApp](design-document/assistantapp.md)
 
 ## Deploy Guide
 
