@@ -54,7 +54,7 @@ TODO
 
 #### 卷轴布局（Scroll）
 
-在catalog中的kvS中，添加Scroll\_Image字段，值为卷轴的背景图，图片地址位于包中（bundle）。
+在catalog中的kvS中，添加Scroll\_Image字段，值为卷轴的背景图，图片地址位于包（bundle）中的附件文件夹（\_attachments）。
 
 ```json
 {
@@ -63,7 +63,7 @@ TODO
         "LayerPattern": "Scroll",
         "TitleImage": "",
         "ProfileImage": "",
-        "Scroll_Image": "b359b77a-fb45-4845-8455-27f57ddaeed8/scroll.jpg"
+        "Scroll_Image": "b359b77a-fb45-4845-8455-27f57ddaeed8/_attachments/scroll.jpg"
     }
 }
 ```
