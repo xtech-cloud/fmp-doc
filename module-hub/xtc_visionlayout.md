@@ -52,7 +52,42 @@ TODO
 
 ### 配置主题模板
 
-TODO
+#### 卷轴布局（Scroll）
+
+在catalog中的kvS中，添加Scroll\_Image字段，值为卷轴的背景图，图片地址位于包中（bundle）。
+
+```json
+{
+    ...
+    "kvS": {
+        "LayerPattern": "Scroll",
+        "TitleImage": "",
+        "ProfileImage": "",
+        "Scroll_Image": "b359b77a-fb45-4845-8455-27f57ddaeed8/scroll.jpg"
+    }
+}
+```
+
+注意LayerPattern字段需要匹配到xml配置文件中的LayerPattern。
+
+```xml
+<LayerPattern name="Scroll" interactable="true">
+......
+</LayerPattern>
+```
+
+完成以上两个步骤，已经可以显示卷轴图片了。如果需要配置热点。则需要在内容（Content）的元数据（Meta）文件中添加需要的字段。
+
+```json
+"kvS": {
+    "XTC_VisionLayout_Hotspot_x": "100",
+    "XTC_VisionLayout_Hotspot_y": "100"
+}
+```
+
+以上两个值，分别代表了热点在大图中的x和y坐标，卷轴背景图的中心点为（0，0），左和下为负，右和上为正。
+
+所有的内容（content），在卷轴布局中，均显示为一个热点。
 
 ### 配置标题图
 
