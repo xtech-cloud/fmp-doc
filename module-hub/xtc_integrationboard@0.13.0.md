@@ -4,8 +4,6 @@ description: 集成面板
 
 # XTC\_IntegrationBoard
 
-* [0.13.0](module-hub/xtc\_integrationboard@0.13.0.md)
-
 集成面板可以将多个模块整合进一个面板中，用多个模块为一个内容提供多样的显示形态和交互体验。
 
 ## 术语约定
