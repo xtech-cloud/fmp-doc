@@ -242,9 +242,10 @@ TODO
 
 | 参数          | 类型     | 说明                    |
 | ----------- | ------ | --------------------- |
-| uid         | string | 准备创建的实例的uid           |
-| style       | string | 准备创建的实例的样式            |
+| uid         | string | 准备创建并打开的实例的uid           |
+| style       | string | 准备创建并打开的实例的样式            |
 | source      | string | 内容的源类型，可选项为assloud:// |
+| uiSlot      | string | 创建完成的实例的挂载槽的绝对路径 |
 | uri         | string | 内容在源中的访问地址            |
 | delay       | float  | 延时打开的时间，单位为秒          |
 | position\_x | float  | 打开的位置的x坐标             |
@@ -256,15 +257,20 @@ TODO
 
 | 参数    | 类型     | 说明           |
 | ----- | ------ | ------------ |
-| uid   | string | 准备创建的实例的uid  |
+| uid   | string | 准备关闭并销毁的实例的uid  |
 | delay | float  | 延时关闭的时间，单位为秒 |
-|       |        |              |
 
 ## 依赖插件
 
 oelMVCS
 
 ## 更新日志
+
+### 0.14.0
+
+* 修改：
+
+DirectOpen消息，加入uiSlot参数
 
 ### 0.9.0
 
