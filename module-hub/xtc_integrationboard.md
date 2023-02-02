@@ -50,5 +50,14 @@ TODO
 
 oelMVCS
 
+## 更新日志
 
+### 0.9.0
 
+* 新增：
+
+支持视频循环，对应配置为：
+
+```markup
+<VideoLoop mode="none" visible="false"/>
+```

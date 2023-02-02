@@ -35,6 +35,7 @@
 * [Environment](development-guide/environment.md)
 * [Cli](development-guide/cli.md)
 * [UnityApp](development-guide/unityapp.md)
+* [Module](development-guide/module.md)
 
 ## Module Hub
 

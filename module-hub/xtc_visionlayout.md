@@ -109,7 +109,8 @@ TODO
 | --- | ------ | ------ |
 | uid | string | 实例的uid |
 
-## 依赖插件&#x20;
+## 依赖插件
 
 oelMVCS
+oelFSM
 
