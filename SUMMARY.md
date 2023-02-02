@@ -45,6 +45,7 @@
 * [XTC\_VisionLayout](module-hub/xtc\_visionlayout.md)
 * [XTC\_IntegrationBoard](module-hub/xtc\_integrationboard/README.md)
   * [0.13.0](module-hub/xtc\_integrationboard/0.13.0.md)
+  * [0.15.0](module-hub/xtc\_integrationboard/0.15.0.md)
 * [XTC\_VRLobby](module-hub/xtc\_vrlobby.md)
 * [XTC\_Hotspot2D](module-hub/xtc\_hotspot2d.md)
 * [XTC\_MediaCenter](module-hub/xtc\_mediacenter.md)
