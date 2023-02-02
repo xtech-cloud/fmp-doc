@@ -4,7 +4,7 @@ description: 集成面板
 
 # XTC\_IntegrationBoard
 
-* [0.13.0](module-hub/xtc\_integrationboard@0.13.0.md)
+* [0.13.0](../module-hub/xtc\_integrationboard@0.13.0.md)
 
 集成面板可以将多个模块整合进一个面板中，用多个模块为一个内容提供多样的显示形态和交互体验。
 
@@ -233,11 +233,10 @@ TODO
 
 此消息将激活一个标签，打开对应的页面
 
-| 参数          | 类型     | 说明                    |
-| ----------- | ------ | --------------------- |
-| uid         | string | 准备创建的实例的uid           |
-| page        | string | 要打开的页面的名称，对应TabButton.name |
-
+| 参数   | 类型     | 说明                         |
+| ---- | ------ | -------------------------- |
+| uid  | string | 准备创建的实例的uid                |
+| page | string | 要打开的页面的名称，对应TabButton.name |
 
 * /XTC/IntegrationBoard/DirectOpen
 
