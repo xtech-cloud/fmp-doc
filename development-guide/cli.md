@@ -30,7 +30,7 @@ conda install grpcio-tools==1.46.0 -c conda-forge
 conda install pyyaml==5.1.2 -c conda-forge
 conda install colorama==0.4.0 -c conda-forge
 conda install requests==2.23.0 -c conda-forge
-pip install pyinstaller==5.6.2
+conda install pyinstaller==5.6.2 -c conda-forge
 ```
 
 编译
@@ -42,6 +42,10 @@ pyinstaller fmp-cli.spec
 
 编译产物位于dist/fmp-cli.exe
 
+## 安装
+
+将fmp-cli.exe安装到可执行目录，例如 `C:\Windows\System32`
+
 ## 升级
 
 ### 更新proto
@@ -51,7 +55,22 @@ python -m grpc_tools.protoc -I./proto/Repository --python_out=./mygrpc --grpc_py
 ```
 
 
-## 安装
 
-将fmp-cli.exe安装到可执行目录，例如 `C:\Windows\System32`
+## 运行错误解决方法
 
+- 提示pyinstaller无法找到
+
+使用pip进行安装
+```bash
+pip install pyinstaller==5.6.2
+```
+
+
+- assertion failed: pem_root_certs != nullptr
+
+在fmp-cli.spec中加入
+```
+datas=[
+('roots.pem', 'grpc/_cython/_credentials/'),
+],
+```
