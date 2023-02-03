@@ -50,4 +50,5 @@
 * [XTC\_VRLobby](module-hub/xtc\_vrlobby.md)
 * [XTC\_Hotspot2D](module-hub/xtc\_hotspot2d.md)
 * [XTC\_MediaCenter](module-hub/xtc\_mediacenter.md)
-* [XTC\_LuaEnv](module-hub/xtc\_luaenv.md)
+* [XTC\_LuaEnv](module-hub/xtc\_luaenv/README.md)
+  * [0.10.0](module-hub/xtc\_luaenv/0.10.0.md)
