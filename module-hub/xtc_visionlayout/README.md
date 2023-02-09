@@ -669,7 +669,7 @@ TODO
 | layer | string | 层的名称 |
 | virtual_resolution_width | int | 虚拟分辨率的宽度 |
 | virtual_resolution_height | int | 虚拟分辨率的高度 |
-| uiSlot | string | ui的挂载槽的绝对路径 |
+| uiSlot | UnityEngine.Transform | ui的挂载槽 |
 
 * /XTC/VisionLayout/DummyLayout/OnEnter
 
