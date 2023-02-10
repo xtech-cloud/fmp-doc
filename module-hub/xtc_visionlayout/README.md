@@ -724,6 +724,19 @@ TODO
 
 ## 依赖插件
 
-oelMVCS
 oelFSM
+
+## 更新日志
+
+### 0.11.2
+
+* 修正：
+
+LayoutEnter缺少duration参数
+
+### 0.11.0
+
+* 新增：
+
+新增Dummy布局
 
