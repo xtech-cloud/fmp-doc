@@ -667,6 +667,7 @@ TODO
 | 参数  | 类型     | 说明     |
 | --- | ------ | ------ |
 | layer | string | 层的名称 |
+| pattern | string | 模式的名称 |
 | virtual_resolution_width | int | 虚拟分辨率的宽度 |
 | virtual_resolution_height | int | 虚拟分辨率的高度 |
 | uiSlot | UnityEngine.Transform | ui的挂载槽 |
@@ -678,6 +679,7 @@ TODO
 | 参数  | 类型     | 说明     |
 | --- | ------ | ------ |
 | layer | string | 层的名称 |
+| pattern | string | 模式的名称 |
 | duration | float | 显示的持续时间 |
 
 * /XTC/VisionLayout/DummyLayout/OnExit
@@ -687,6 +689,7 @@ TODO
 | 参数  | 类型     | 说明     |
 | --- | ------ | ------ |
 | layer | string | 层的名称 |
+| pattern | string | 模式的名称 |
 
 * /XTC/VisionLayout/DummyInTransition/OnEnter
 
@@ -695,6 +698,7 @@ TODO
 | 参数  | 类型     | 说明     |
 | --- | ------ | ------ |
 | layer | string | 层的名称 |
+| pattern | string | 模式的名称 |
 | duration | float | 入变换的持续时间 |
 
 * /XTC/VisionLayout/DummyInTransition/OnExit
@@ -704,6 +708,7 @@ TODO
 | 参数  | 类型     | 说明     |
 | --- | ------ | ------ |
 | layer | string | 层的名称 |
+| pattern | string | 模式的名称 |
 
 * /XTC/VisionLayout/DummyOutTransition/OnEnter
 
@@ -712,6 +717,7 @@ TODO
 | 参数  | 类型     | 说明     |
 | --- | ------ | ------ |
 | layer | string | 层的名称 |
+| pattern | string | 模式的名称 |
 | duration | float | 出变换的持续时间 |
 
 * /XTC/VisionLayout/DummyOutTransition/OnExit
@@ -721,6 +727,7 @@ TODO
 | 参数  | 类型     | 说明     |
 | --- | ------ | ------ |
 | layer | string | 层的名称 |
+| pattern | string | 模式的名称 |
 
 ## 依赖插件
 
@@ -728,11 +735,17 @@ oelFSM
 
 ## 更新日志
 
+### 0.11.3
+
+* 修正：
+
+Dummy消息缺少layer参数
+
 ### 0.11.2
 
 * 修正：
 
-LayoutEnter缺少duration参数
+Dummy消息缺少duration参数
 
 ### 0.11.0
 
