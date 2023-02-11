@@ -114,19 +114,41 @@ TODO
     </Subjects>
   </Preload>
 </MyConfig>
+
 ```
+
+变量列表
+
 
 
 
 ## 消息订阅
 
-TODO
+* /XTC/MediaCenter/Inlay
+
+嵌入一个MediaCenter的新实例
+
+| 参数  | 类型     | 说明     |
+| --- | ------ | ------ |
+| uid | string | 新实例的uid |
+| style | string | 新实例的样式名 |
+| uiSlot | UnityEngine.GameObject | 新实例的ui挂载节点|
+| worldSlot | UnityEngine.GameObject | 新实例的世界挂载节点|
+
+* /XTC/MediaCenter/Inlay
+
+刷新一个MediaCenter的实例
+
+| 参数  | 类型     | 说明     |
+| --- | ------ | ------ |
+| uid | string | 新实例的uid |
+| source | string | 源 |
+| uri | string | 在源中的相对路径 |
+
 
 ## 依赖插件
 
-oelMVCS
 AVProVideoPlugin
-
 
 
 ## 更新日志
