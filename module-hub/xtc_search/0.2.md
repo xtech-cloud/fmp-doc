@@ -118,6 +118,16 @@ TODO
 
 ```
 
+### 变量
+
+* ActivateSubjects
+
+| 变量 | 类型 | 说明 |
+| --- | --- | --- |
+| {{uid}} | string | 实例的uid |
+| {{bundle_uuid}} | string | 激活的搜索结果的包的uuid |
+| {{content_uuid}} | string | 激活的搜索结果的内容的uuid |
+
 ## 消息订阅
 
 * /XTC/Search/Inlay
