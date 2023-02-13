@@ -36,6 +36,7 @@
 * [Cli](development-guide/cli.md)
 * [UnityApp](development-guide/unityapp.md)
 * [Module](development-guide/module.md)
+* [PyTools](development-guide/pytools.md)
 
 ## Module Hub
 
