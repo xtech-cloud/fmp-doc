@@ -44,6 +44,7 @@
 * [XTC\_Vendor](module-hub/xtc\_vendor.md)
 * [XTC\_Assloud](module-hub/xtc\_assloud.md)
 * [XTC\_VisionLayout](module-hub/xtc\_visionlayout/README.md)
+  * [0.12](module-hub/xtc\_visionlayout/0.12.md)
   * [0.11](module-hub/xtc\_visionlayout/0.11.md)
 * [XTC\_IntegrationBoard](module-hub/xtc\_integrationboard/README.md)
   * [0.17](module-hub/xtc\_integrationboard/0.17.md)
