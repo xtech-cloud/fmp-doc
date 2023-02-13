@@ -19,7 +19,7 @@ python脚本编写的工具箱。
 
 用法：
 
-* 将vendor的meta.json文件还原为多个单独的配置文件。
+* 将vendor的meta.json文件拆分为解码后的多个单独的配置文件。
 
 用法：
 
@@ -30,7 +30,7 @@ python vendor_meta -x {path_of_meta.json}
 
 输出目录位于和meta.json同级目录的.meta文件夹，此文件夹存在时操作会退出，可使用-y参数自动删除.meta文件夹
 
-* 将vendor的meta.json文件还原为多个单独的配置文件。
+* 将多个单独的配置文件合并为一个编码后的meta.json。
 
 用法：
 
