@@ -2,7 +2,7 @@
 
 * [概述](README.md)
 
-## Design Document | 设计文档
+## Design Document
 
 * [Cli](design-document/cli.md)
 * [Assloud](design-document/assloud.md)
@@ -13,7 +13,7 @@
 * [ShieldApp](design-document/shieldapp.md)
 * [AssistantApp](design-document/assistantapp.md)
 
-## Deploy Guide | 部署指南
+## Deploy Guide
 
 * [Environment](deploy-guide/environment.md)
 * [BlazorApp](deploy-guide/blazorapp.md)
@@ -23,14 +23,14 @@
 * [DaemonApp](deploy-guide/daemonapp.md)
 * [XRApp](deploy-guide/xrapp.md)
 
-## User Manual | 用户手册
+## User Manual
 
 * [UnityApp](user-manual/unityapp.md)
 * [BlazorApp](user-manual/blazorapp.md)
 * [MauiApp](user-manual/mauiapp.md)
 * [XRApp](user-manual/xrapp.md)
 
-## Development Guide | 开发指南
+## Development Guide
 
 * [Environment](development-guide/environment.md)
 * [Cli](development-guide/cli.md)
@@ -38,7 +38,7 @@
 * [Module](development-guide/module.md)
 * [PyTools](development-guide/pytools.md)
 
-## Module Hub | 模块仓库
+## Module Hub
 
 * [XTC\_Repository](module-hub/xtc\_repository.md)
 * [XTC\_Vendor](module-hub/xtc\_vendor.md)
