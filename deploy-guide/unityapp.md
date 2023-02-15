@@ -14,6 +14,7 @@ UnityApp的应用的配置文件为AppConfig.xml，此文件存在于AppData/Loc
   <Body>
     <VendorSelector active="default" />
     <Logger level="4" />
+    <Security sngen="1" />
   </Body>
   <Header>
     <Field attribute="LogLevel.level" values="日志等级，可选值为：0(NONE), 1(EXCEPTION), 2(ERROR), 3(WARNING), 4(INFO), 5(DEBUG)5, 6(TRACE), 7(ALL)" />
@@ -26,6 +27,10 @@ UnityApp的应用的配置文件为AppConfig.xml，此文件存在于AppData/Loc
 | --------------------- | ------- | ------- |
 | VendorSelector.active | 激活的虚拟环境 | default |
 | Logger.level          | 日志的等级   | 4       |
+| Security.sngen | 设备码生成 | 1       |
+
+Security.sngen 为0时，使用全部硬件加系统信息算法生成，生成的序列号为小写，不会有重复，但在系统更新或有外部硬件接入时，设备码会变化。
+Security.sngen 为1时，使用主要硬件信息算法生成，生成的序列号为大写，会有重复，但在有外接硬件时不会变化。
 
 AppConfig.xml如果不存在，程序在运行时会自动创建。
 
@@ -46,7 +51,10 @@ UnityApp运行后，会从激活的虚拟环境中加载模块和资源。激活
 
 ```json
 {
+    "Uuid": ""
     "Name": "XTC.Demo.CultureWall",
+    "MultiScreenRow": 1,
+    "MultiScreenColumn": 1,
     "Display": "演示/文化墙",
     "SkinSplashBackground": "",
     "SkinSplashSlogan": "",
@@ -63,7 +71,6 @@ UnityApp运行后，会从激活的虚拟环境中加载模块和资源。激活
     "ModuleConfigS": {},
     "ModuleCatalogS": {},
     "ModuleThemeS": {},
-    "Uuid": ""
 }
 ```
 
@@ -71,6 +78,8 @@ UnityApp运行后，会从激活的虚拟环境中加载模块和资源。激活
 | --------------------------------- | ----------------------------------------------- |
 | Name                              | 虚拟环境的名称                                         |
 | Display                           | Vendor选单显示的名称                                   |
+| MultiScreenRow                    | 多屏行数，设置实际的物理屏幕的行数，在某些情况下避免屏缝   |
+| MultiScreenColumn                 | 多屏列数，设置实际的物理屏幕的列数，在某些情况下避免屏缝   |
 | SkinSplashBackground              | 过场阶段显示的背景图，图片模式为循环平铺                            |
 | SkinSplashSlogan                  | 过场阶段显示的标语图，图片模式为原始大小                            |
 | GraphicsFPS                       | 画质帧数，一般为30或60，帧数越高对硬件性能要求越高                     |
