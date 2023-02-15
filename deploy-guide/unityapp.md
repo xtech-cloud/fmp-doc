@@ -118,6 +118,28 @@ http://oss.xtech.cloud/xxxxxxxxxxxxxxxxxxxxxxxxxxxx.json
 
 运行程序后，会自动从此地址下载vendor的meta文件，然后更新框架、聚合资源。
 
+### 合并本地资源
+
+`此功能1.22.0以上版本支持`
+
+UnityApp启动后，会从远端资源库中拉取所有catalog中contentS字段中的资源，如果部分资源希望使用离线方式，跳过聚合，可按以下方式配置：
+
+1. 在指定的vendor目录，新建.syndication文件夹
+2. 在.syndication中新建以资源包的uuid命名的ignore文件，例如0d949fc4-4a4e-4c77-bb5e-e5d0485c56f9.ignore。
+
+完成配置后，目录结构如下：
+
+```
+|- {name_of_vendor}
+  |- meta.json
+  |- .syndication
+    |- 0d949fc4-4a4e-4c77-bb5e-e5d0485c56f9.ignore
+  |- ...
+```
+
+UnityApp启动后，在资源聚合阶段，检测到存在聚合忽略文件，则会跳过对应的整个资源包的下载。
+
+
 ## 使用Vendor选单
 
 UnityApp支持在程序启动后，自动读取所有的vendor目录下的meta.json文件形成一个选单列表，在选单中选择一个vendor进入。
