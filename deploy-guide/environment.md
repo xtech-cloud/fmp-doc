@@ -63,17 +63,20 @@ install-all.sh
 
 使用浏览器分别访问以下地址：
 
-* localhost
+* web容器
 
-web容器
+> http://localhost
+> https://localhost
 
-* localhost:8080
+* pmc容器
 
-pmc容器
+> http://localhost:8080
+> https://localhost:8443
 
-* localhost:16166
+* daemon容器
 
-daemon容器
+> localhost:16166
+
 
 
 ### Repository
