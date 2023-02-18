@@ -7,6 +7,7 @@ description: '环境配置 #开发指南'
 ## Service的Http协议枚举值
 
 | HttpProtocols枚举值 |	允许的连接协议 |
+|--- | --- |
 | Http1	| 仅限 HTTP/1.1。可以在有或没有 TLS 的情况下使用。|
 | Http2 | 仅限 HTTP/2。仅当客户端支持先验知识模式时，才可以在没有 TLS 的情况下使用。 |
 | Http1AndHttp2 | HTTP/1.1 和 HTTP/2。HTTP/2 要求客户端在 TLS应用层协议协商 (ALPN)握手中选择 HTTP/2；否则，连接默认为 HTTP/1.1。|
