@@ -75,7 +75,7 @@ install-all.sh
 
 * daemon容器
 
-> localhost:16166
+> http://localhost:16166
 
 
 
