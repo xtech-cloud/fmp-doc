@@ -14,7 +14,7 @@ version: 1.70.2
 创建环境
 
 ```bash
-conda create --name fmp python=3.8.3
+conda create --name fmp python=3.10.9
 ```
 
 安装依赖包
@@ -25,12 +25,12 @@ conda activate fmp
 conda config --add channels https://mirrors.aliyun.com/anaconda/cloud/conda-forge
 conda config --set show_channel_urls yes
 
-conda install grpcio==1.46.0 -c conda-forge
-conda install grpcio-tools==1.46.0 -c conda-forge
-conda install pyyaml==5.1.2 -c conda-forge
-conda install colorama==0.4.0 -c conda-forge
-conda install requests==2.23.0 -c conda-forge
-conda install pyinstaller==5.6.2 -c conda-forge
+conda install grpcio==1.51.1 -c conda-forge
+conda install grpcio-tools==1.51.1 -c conda-forge
+conda install pyyaml==6.0 -c conda-forge
+conda install colorama==0.4.6 -c conda-forge
+conda install requests==2.28.2 -c conda-forge
+conda install pyinstaller==5.8.0 -c conda-forge
 ```
 
 编译

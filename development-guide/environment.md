@@ -32,6 +32,7 @@ TLS 不仅仅用于保护通信。当端点支持多种协议时，TLS应用层�
 Unity grpc 使用的是 HTTP/1.1
 
 * issue1:
+Invalid content received on connection. Possible incorrect HTTP version detected. Expected HTTP/1.1 but received HTTP/2.
 Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unrecognized HTTP version: 'HTTP/2.0'
 
 * issue2:
