@@ -175,6 +175,10 @@ description["img#1.jpg"]["en_US"] = "图片1的描述"
 
 ## 更新日志
 
+### PhotoAlbum/6.0.0
+
+  [新增] 第一版
+
 ### 0.10.0
 
   [更新] 将NLayer组件替换为NVorbis
