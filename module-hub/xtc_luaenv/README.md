@@ -84,7 +84,7 @@ TODO
 
 ## 模板列表
 
-### Karaoke
+### Karaoke (卡拉OK)
 
 * 可更改主题皮肤
 * 可切换人声和伴唱两种模式
@@ -114,11 +114,63 @@ TODO
   |- panel-volume.png         // 音量条背景图
 ```
 
+
 #### 配置说明
 
-* 需改样式
+* 修改样式
 
 样式的修改可替换图片和修改style.lua中的值
+
+* 更改歌词
+
+将歌词格式的文本替换到lrc.lua中
+
+### PhotoAlbum (相册)
+
+* 可更改主题皮肤
+* 可浏览图片预览
+* 可缩放图片大小
+* 可显示和关闭图片配文
+
+#### 文件结构
+
+```
+|- x.lsa
+  |- root.lua                 // 根脚本
+  |- app.lua                  // 应用逻辑脚本
+  |- unityUtilities.lua       // 通用工具脚本
+  |- style.lua                // 主题样式脚本
+  |- config.lua               // 配置脚本
+  |- description_off.png      // 描述关闭按钮图片
+  |- description_on.png       // 描述打开按钮图片
+  |- handle.png               // 缩放条按钮图
+  |- slider.png               // 缩放条背景图
+  |- progress.png             // 加载进度背景图
+  |- images                   // 图片文件夹
+    |- img#1.jpg              // 第一张图片
+    |- ...
+```
+
+#### 配置说明
+
+* 修改样式
+
+样式的修改可替换图片和修改style.lua中的值
+
+* 更改图片
+
+将图片放置到images文件夹中，并按 img#{n}.jpg方式命名，n从1开始。
+
+修改完图片后更改config.lua中的图片数量值
+
+```lua
+local count = 4
+```
+
+同时添加图片的描述
+```lua
+description["img#1.jpg"]["en_US"] = "图片1的描述"
+```
 
 
 ## 更新日志
