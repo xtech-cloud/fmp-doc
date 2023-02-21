@@ -41,3 +41,20 @@ python vendor_meta -c {path_of_.meta}
 
 输出文件位于和.meta文件夹同级目录的meta.json，此文件存在时操作会退出，可使用-y参数自动删除meta.json
 
+## bundle_meta
+
+构建资源包的meta.json的工具。
+
+| 参数 | 说明 |
+| --- | --- |
+| -d | 资源包的文件夹的绝对路径 |
+
+用法：
+
+```cmd
+cd fmp-pytools
+python bundle_meta -d {path_of_bundle}
+```
+
+输出文件位于资源包目录的meta.json，如果此文件存在，则会读取name、uuid、summary、labelS、tagS、summary_i18nS等属性，合并到输出文件中。如果没有存在的meta.json，则输出的文件的以上字段为空。
+
