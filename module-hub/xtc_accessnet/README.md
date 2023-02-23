@@ -129,7 +129,9 @@ description: 接入网
 
 ## 通信协议
 
-通信协议以Protobuf定义，文件见 [Github](https://github.com/xtech-cloud/FMP-MOD-AccessNet/tree/main/proto/AccessNet)
+通信协议以Protobuf定义，各服务如下：
+
+* [接入点 (Point)](https://github.com/xtech-cloud/FMP-MOD-AccessNet/tree/main/proto/AccessNet/point.proto)
 
 ## 依赖插件
 
