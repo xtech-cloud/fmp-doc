@@ -150,3 +150,16 @@ UnityApp支持在程序启动后，自动读取所有的vendor目录下的meta.j
 * vendor文件夹的名字和meta.json的Name字段名字必须一致。
 * 不使用命令行参数设置vendor
 * AppConfig.xml中的VendorSelector.active为空。
+
+## 更新日志
+
+### 1.31.0 [2023/2/23]
+
+* [新增] 添加serialnumber设置
+
+### 1.30.0 [2023/2/16]
+
+* [更新] 框架更新为.net7
+
+
+
