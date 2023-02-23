@@ -27,13 +27,13 @@ UnityApp的应用的配置文件为AppConfig.xml，此文件存在于AppData/Loc
 | --------------------- | ------- | ------- |
 | VendorSelector.active | 激活的虚拟环境 | default |
 | Logger.level          | 日志的等级   | 4       |
-| Security.sngen | 设备码生成 | 1       |
+| Security.dcgen | 设备码生成算法 | 1       |
+| Security.serialnumber| 序列号| 默认为设备码 |
 
-Security.sngen 为0时，使用全部硬件加系统信息算法生成，生成的序列号为小写，不会有重复，但在系统更新或有外部硬件接入时，设备码会变化。
-Security.sngen 为1时，使用主要硬件信息算法生成，生成的序列号为大写，会有重复，但在有外接硬件时不会变化。
+Security.dcgen 为0时，使用全部硬件加系统信息算法生成，生成的序列号为小写，不会有重复，但在系统更新或有外部硬件接入时，设备码会变化。
+Security.dcgen 为1时，使用主要硬件信息算法生成，生成的序列号为大写，会有重复，但在有外接硬件时不会变化。
 
 AppConfig.xml如果不存在，程序在运行时会自动创建。
-
 
 
 ## 虚拟环境配置

@@ -4,13 +4,13 @@ description: 'Unity应用程序 #设计文档'
 
 # UnityApp
 
-
-
 FMP Unity Application（简称UnityApp）作为FMP解决方案中的视觉呈现终端部分，能灵活的搭配使用FMP方案构建出的标准模块，快速制作数字内容的交互终端。
 
-
-
 ## 功能特性（Features）
+
+### 全局配置 (AppConfig)
+
+UnityApp使用AppConfig作为应用的全局的配置文件。
 
 ### 虚拟环境（Vendor）
 
@@ -42,7 +42,7 @@ TODO
 
 ### 许可证（License）
 
-TODO
+许可证使用设备码(Device Code)进行激活，设备码由设备的相关硬件信息进行生成，可保证物理上的不可篡改。
 
 ### 模块管理（Module Management）
 

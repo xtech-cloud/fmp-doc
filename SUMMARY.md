@@ -61,3 +61,4 @@
   * [0.10](module-hub/xtc\_luaenv/0.10.md)
 * [XTC\_Search](module-hub/xtc\_search/README.md)
   * [0.2](module-hub/xtc\_search/0.2.md)
+* [XTC\_AccessNet](module-hub/xtc\_accessnet/README.md)
