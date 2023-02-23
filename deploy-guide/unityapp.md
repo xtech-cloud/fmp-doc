@@ -14,7 +14,7 @@ UnityApp的应用的配置文件为AppConfig.xml，此文件存在于AppData/Loc
   <Body>
     <VendorSelector active="default" />
     <Logger level="4" />
-    <Security sngen="1" />
+    <Security dcgen="1" serialnumber="" />
   </Body>
   <Header>
     <Field attribute="LogLevel.level" values="日志等级，可选值为：0(NONE), 1(EXCEPTION), 2(ERROR), 3(WARNING), 4(INFO), 5(DEBUG)5, 6(TRACE), 7(ALL)" />
