@@ -58,6 +58,7 @@
   * [0.14](module-hub/xtc\_mediacenter/0.14.md)
   * [0.13](module-hub/xtc\_mediacenter/0.13.md)
 * [XTC\_LuaEnv](module-hub/xtc\_luaenv/README.md)
+  * [0.11](module-hub/xtc\_luaenv/0.11.md)
   * [0.10](module-hub/xtc\_luaenv/0.10.md)
 * [XTC\_Search](module-hub/xtc\_search/README.md)
   * [0.2](module-hub/xtc\_search/0.2.md)
