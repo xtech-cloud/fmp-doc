@@ -172,7 +172,7 @@ local count = 4
 description["img#1.jpg"]["en_US"] = "图片1的描述"
 ```
 
-### ImagePresentation (图片演讲)
+### ImagePresentation (图片演示)
 
 * 可更改主题皮肤
 * 可使用上一页和下一页进行翻页
