@@ -114,6 +114,7 @@ description: 模块总览
 根节点挂载完成后，在创建实例时，如果没有指定挂载相关的参数，实例将默认挂载到根节点下，例如创建名为default的节点，节点的路径如下：
 
 > default实例的UI的挂载路径：MainCanvas/[root]/[UI_Root_({ModuleName})]/defualt
+
 > default实例的世界的挂载路径：MainWorld/[root]/[World_Root_({ModuleName})]/defualt
 
 默认挂载槽一般在模块内部使用时较为方便，但是实际使用中，会遇到需要将一个模块挂载到另一个模块中的情况，此时就需要指定实例的挂载参数，例如如下配置：
