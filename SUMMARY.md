@@ -40,7 +40,7 @@
 
 ## Module Hub
 
-* [Summary](module-hub/README.md)
+* [Summary](module-hub/SUMMARY.md)
 * [XTC\_Repository](module-hub/xtc\_repository.md)
 * [XTC\_Vendor](module-hub/xtc\_vendor.md)
 * [XTC\_Assloud](module-hub/xtc\_assloud.md)
