@@ -199,3 +199,8 @@ UI.slot和World.slot一般情况下不建议修改。Instance.uiRoot字段指定
 | uid | string | 实例的uid|
 
 
+## 框架更新日志
+
+### 1.83.0
+
+* [新增]为实例添加uiRoot字段
