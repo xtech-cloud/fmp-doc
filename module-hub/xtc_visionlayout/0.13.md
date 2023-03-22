@@ -208,12 +208,13 @@ TODO
           <Subjects>
             <Subject message="/XTC/IntegrationBoard/DirectOpen">
               <Parameters>
-                <Parameter key="uid" value="{{dummyboard_uid}}" type="string"/>
+                <Parameter key="uid" value="{{dummyboard_uid}}" type="_"/>
                 <Parameter key="style" value="circular" type="string"/>
                 <Parameter key="source" value="assloud://" type="string"/>
-                <Parameter key="uri" value="{{content_uri}}" type="string"/>
-                <Parameter key="position_x" value="{{dummyboard_position_x}}" type="float"/>
-                <Parameter key="position_y" value="{{dummyboard_position_y}}" type="float"/>
+                <Parameter key="uri" value="{{content_uri}}" type="_"/>
+                <Parameter key="uiSlot" value="{{dummyboard_uiSlot}}" type="_"/>
+                <Parameter key="position_x" value="{{dummyboard_position_x}}" type="_"/>
+                <Parameter key="position_y" value="{{dummyboard_position_y}}" type="_"/>
                 <Parameter key="delay" value="0" type="float"/>
               </Parameters>
             </Subject>
@@ -758,6 +759,13 @@ TODO
 oelFSM
 
 ## 更新日志
+
+### 0.13.1
+
+* 修正：
+
+补全LayerPattern.Subject中缺失的uiSlot参数
+LayerPattern.Subject中的变量的类型更改为"_"
 
 ### 0.13.0
 
