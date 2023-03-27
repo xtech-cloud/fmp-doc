@@ -49,6 +49,7 @@
   * [0.12](module-hub/xtc\_visionlayout/0.12.md)
   * [0.11](module-hub/xtc\_visionlayout/0.11.md)
 * [XTC\_IntegrationBoard](module-hub/xtc\_integrationboard/README.md)
+  * [0.19](module-hub/xtc\_integrationboard/0.19.md)
   * [0.18](module-hub/xtc\_integrationboard/0.18.md)
   * [0.17](module-hub/xtc\_integrationboard/0.17.md)
   * [0.16](module-hub/xtc\_integrationboard/0.16.md)
