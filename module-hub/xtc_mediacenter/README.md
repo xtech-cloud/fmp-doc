@@ -153,6 +153,11 @@ AVProVideoPlugin
 
 ## 更新日志
 
+### 0.16.1
+
+[更新] 升级到1.83
+[修正] 使用PointerDown事件替换Slider.onValueChanged
+
 ### 0.15.1 - 0.15.3
 
 * 修正：
