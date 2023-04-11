@@ -38,7 +38,7 @@ TODO
       Cell.columnEnd: 单元格的结束列数
       Cell.rowStart: 单元格的开始行数
       Cell.rowEnd: 单元格的结束行数
-      Cell.Content.type: 单元格的内容类型，可选值为[RawImage, Button, SlicedImage]
+      Cell.Content.type: 单元格的内容类型，可选值为[RawImage, Button, SlicedImage, ClickArea]
       Cell.Content.ParameterS: 单元格的内容的类型的参数
       Cell.Content.SubjectS: 单元格的内容被激活后发布的主题列表
     -->
@@ -55,6 +55,17 @@ TODO
           </Content>
         </Cell>
         <Cell name="carousel" columnStart="3" columnEnd="63" rowStart="6" rowEnd="39">
+        </Cell>
+        <Cell name="carousel-click" columnStart="3" columnEnd="63" rowStart="6" rowEnd="39">
+          <Content type="ClickArea">
+            <SubjectS>
+              <Subject message="/XTC/GridMenu/Hide">
+                <Parameters>
+                  <Parameter key="uid" value="default" type="string"/>
+                </Parameters>
+              </Subject>
+            </SubjectS>
+          </Content>
         </Cell>
         <Cell name="入口1" columnStart="66" columnEnd="74" rowStart="6" rowEnd="21">
           <Content type="Button">
@@ -265,6 +276,11 @@ TODO
 
 
 ## 更新日志
+
+### 0.6.0
+
+[更新] 升级框架到1.84
+[新增] 新增ClickArea内容
 
 ### 0.5.1
 
