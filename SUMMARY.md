@@ -71,3 +71,4 @@
 * [XTC\_ImageSee](module-hub/xtc\_imagesee/README.md)
 * [XTC\_VideoSee](module-hub/xtc\_videosee/README.md)
 * [XTC\_CanvasRenderer](module-hub/xtc\_canvasrenderer/README.md)
+* [XTC\_GridMenu](module-hub/xtc\_gridmenu.md)
