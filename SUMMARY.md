@@ -68,5 +68,6 @@
   * [0.2](module-hub/xtc\_search/0.2.md)
 * [XTC\_AccessNet](module-hub/xtc\_accessnet/README.md)
 * [XTC\_Analytics](module-hub/xtc\_analytics/README.md)
+* [XTC\_ImageSee](module-hub/xtc\_imagesee/README.md)
 * [XTC\_VideoSee](module-hub/xtc\_videosee/README.md)
 * [XTC\_CanvasRenderer](module-hub/xtc\_canvasrenderer/README.md)
