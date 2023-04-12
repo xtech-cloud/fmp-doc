@@ -12,12 +12,15 @@ description: 模块总览
 | Analytics| 统计分析 | ⚫    | ⚫        | ⚫         | 28004 |
 | Assloud       | 资源云             | ⚫    | ⚫        | ⚫         | 28001    |
 | DocumentSee | 文档浏览器 |     | ⚫        |          | |
+| GridMenu | 网格菜单 |       | ⚫         | |          |
 | Hotspot2D     | 二维热点           |       | ⚫        |          |          |
 | Hotspot3D     | 三维热点           |       | ⚫        |          |          |
 | ImageSee | 图片浏览器 |       | ⚫        |          |          |
 | IntegrationBoard | 集成面板 |     | ⚫        |          |          |
 | LuaEnv | Lua脚本环境 |     | ⚫        |          |          |
+| MediaCarousel | 多媒体跑马灯 |     | ⚫        |          |          |
 | MediaCenter | 媒体中心 |     | ⚫        |          |          |
+| MultipleDesktops | 多桌面 |       | ⚫         | |          |
 | PanoramicImageSee | 全景图片浏览器 |     | ⚫        |          |          |
 | Profiler| 性能分析器 |     | ⚫        |          |          |
 | Repository    | 模块仓库           | ⚫    |           | ⚫         | 28000    |
@@ -26,14 +29,12 @@ description: 模块总览
 | SecretDock | 隐藏功能区|     |   ⚫       |          |          |
 | SideMenu | 侧边栏 |     |   ⚫      |          |          |
 | Vendor        | 虚拟环境 | ⚫    |           | ⚫         | 28002    |
-| VideoSee | 视频浏览器 | |⚫ | ⚫ | |
+| VideoSee | 视频浏览器 | |⚫ |  | |
 | VisionLayout  | 视觉布局           |     | ⚫        |          |          |
 | VisualScripts | 可视化脚本         |       | ⚫        |          |          |
 | VRLobby       | VR大厅             |       | ⚫        |          |          |
 | WingMenu | 翼形菜单 |       | ⚫         | |          |
 | WorldRenderer| 世界渲染器 |       | ⚫        |          |          |
-| GridMenu | 网格菜单 |       | ⚫         | |          |
-| MultipleDesktops | 多桌面 |       | ⚫         | |          |
 
 
 ## 架构说明

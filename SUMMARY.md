@@ -57,6 +57,7 @@
   * [0.13](module-hub/xtc\_integrationboard/0.13.md)
 * [XTC\_VRLobby](module-hub/xtc\_vrlobby.md)
 * [XTC\_Hotspot2D](module-hub/xtc\_hotspot2d.md)
+* [XTC\_MediaCarousel](module-hub/xtc\_mediacarousel/README.md)
 * [XTC\_MediaCenter](module-hub/xtc\_mediacenter/README.md)
   * [0.15](module-hub/xtc\_mediacenter/0.15.md)
   * [0.14](module-hub/xtc\_mediacenter/0.14.md)
