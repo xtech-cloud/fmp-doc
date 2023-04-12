@@ -135,6 +135,7 @@ Url为空时，path是在_attachments文件夹中的相对路径。
 | description\_i18nS    | map\<string,string> | 描述的多国语言字典           |
 | labelS                | list\<string>       | 用于检索的预设标签的列表        |
 | tagS                  | list\<string>       | 用于检索的自定义标签的列表       |
+| kvS | list\<string>       | 键值对，通常用于模块定位资源 |
 | AttachmentS           | list\<object>       | 附件文件的列表             |
 | Uuid                  | string              | 内容的唯一ID             |
 | foreign\_bundle\_uuid | string              | 所在的包的唯一ID           |
@@ -187,12 +188,3 @@ Url为空时，path是在_attachments文件夹中的相对路径。
 | Uuid                    | string              | 包的唯一ID              |
 | foreign\_content\_uuidS | list\<string>       | 包含的内容的唯一ID的列表       |
 
-
-
-
-
-###
-
-
-
-### &#x20;
