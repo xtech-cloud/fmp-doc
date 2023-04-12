@@ -28,15 +28,48 @@ assloud主要由包、内容、资源三个层级组成。它们的结构如下�
       |- b.xpd
       |- c.xsa
       |- ... 
+   |- _attachments
+      |- 1.jpg
+      |- 2.txt
+      |- ...
 ```
 
 
 
-### 资源（Resources）
+### 资源（Resource）
 
 资源为一个可执行的内容文件，可能的形态为一个视频、一个文档、一个模型、一个微应用等等。
 
 资源是一个最小的运行单位。
+
+资源文件保存在_resources文件夹中。
+
+资源在执行时，通常使用以下两个参数：
+
+| 参数名 | 类型 | 描述 |
+| --- | --- | --- |
+| source | string | 资源的存储源，一般可选值为(assloud:// , file://)|
+| uri | string | 资源的路径 |
+
+其中source是assloud://时，uri是在资源库中的相对路径，例如mybundle/_resources/1.lsa。source是file://时，uri是文件访问的绝对路径，例如c:/1.jpg。
+
+### 附件（Attachment）
+
+附件是一个内容的附件数据文件。
+
+附件文件保存在_attachments文件夹中。
+
+附件的定义字段为
+```json
+{
+    "path": "cover.png",
+    "hash": "7065ccf10aeed15ac5b0665e1c946b26",
+    "Size": 874272,
+    "Url": ""
+}
+```
+
+Url为空时，path是在_attachments文件夹中的相对路径。
 
 ### 内容（Content）
 
