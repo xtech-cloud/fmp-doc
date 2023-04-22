@@ -155,6 +155,8 @@ kvS中预定义以下字段
 | Res.Music |  xm | 带歌词的音乐 | ogg（音乐文件）， txt（歌词文件） | 是 |
 | Res.Application | xlsa | lua脚本应用 | lua（脚本文件），ogg（音频文件），json（配置文件），jpg（图片文件）,png（图片文件）| 是 |
 
+> 注意： 以上字段定义的值，是相对于_resources文件夹的路径，例如1.xlsa。部分模块使用Open消息时，uri参数需要相对asset文件夹的路径，所以在发布消息到其他模块时，需要将参数处理为 {{bundleuuid}}/_resources/{{resource}}这样的格式。
+
 ### 包（Bundle）
 
 多个内容和资源组成一个包。
