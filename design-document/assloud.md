@@ -142,7 +142,17 @@ Url为空时，path是在_attachments文件夹中的相对路径。
 
 内容也可以包含多个附件文件，这些包含的附件文件，定义在AttachmentS字段中，存储时位于内容的路径下。
 
-
+kvS中预定义以下字段
+| 字段                    | 文件扩展名 |   说明                  | 原始格式支持 | 是否Archive封装格式 | 
+| --------------------- |  ------------------- | ----------------- | ------------- | ------------------/
+| Res.Video |  xv |2D平面视频 | mp4 | 否 |
+| Res.Video3D |  xv3 |3D立体视频 | mp4 | 否 |
+| Res.Video720 | xvp |  720全景平面视频 | mp4 | 否 |
+| Res.Video3D720 |  xv3p | 720全景3D立体视频 | mp4 | 否 |
+| Res.Image |  xi | 平面图片 |  jpg | 否 |
+| Res.Image720 | xip |  720全景图片 | jpg | 否 |
+| Res.Music |  xm | 带歌词的音乐 | ogg（音乐文件）， txt（歌词文件） | 是 |
+| Res.Application | xlsa | lua脚本应用 | lua（脚本文件），ogg（音频文件），json（配置文件），jpg（图片文件）,png（图片文件）| 是 |
 
 ### 包（Bundle）
 
