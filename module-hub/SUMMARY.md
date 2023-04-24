@@ -26,12 +26,13 @@ description: 模块总览
 | SecretDock | 隐藏功能区|     |   ⚫       |          |          |
 | SideMenu | 侧边栏 |     |   ⚫      |          |          |
 | Vendor        | 虚拟环境 | ⚫    |           | ⚫         | 28002    |
-| VideoSee | 视频浏览器 | |⚫ | ⚫ | |
+| VideoSee | 视频浏览器 | |⚫ |  | |
 | VisionLayout  | 视觉布局           |     | ⚫        |          |          |
 | VisualScripts | 可视化脚本         |       | ⚫        |          |          |
 | VRLobby       | VR大厅             |       | ⚫        |          |          |
 | WingMenu | 翼形菜单 |       | ⚫         | |          |
 | WorldRenderer| 世界渲染器 |       | ⚫        |          |          |
+| CanvasRenderer| 画布渲染器 |       | ⚫        |          |          |
 | GridMenu | 网格菜单 |       | ⚫         | |          |
 | MultipleDesktops | 多桌面 |       | ⚫         | |          |
 
