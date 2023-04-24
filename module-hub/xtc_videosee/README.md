@@ -30,6 +30,7 @@ TODO
 	<GRPC address="https://localhost:19000"/>
 	<!-- 样式列表
       name: 名称
+      muted: 初始播放时是否静音
       Background: 背景
       Background.visible: 是否可见
       Background.color: 颜色，RGBA的HEX值
@@ -44,7 +45,7 @@ TODO
       ToolBar.ButtonPause.icon: 暂停按钮的图片,建议大小和ToolBar.Anchor.height一致
     -->
 	<Styles>
-		<Style name="default">
+		<Style name="default" muted="false">
 			<Background visible="true" color="#00000088"/>
 			<Pending image="pending#default.png">
 				<Anchor width="128" height="128"/>
@@ -151,6 +152,11 @@ TODO
 
 
 ## 更新日志
+
+### 0.6.0
+
+[更新] 升级框架到1.84.0
+[新增] 添加muted配置参数
 
 ### 0.5.1
 
