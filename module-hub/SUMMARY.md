@@ -35,12 +35,9 @@ description: 模块总览
 | VRLobby       | VR大厅             |       | ⚫        |          |          |
 | WingMenu | 翼形菜单 |       | ⚫         | |          |
 | WorldRenderer| 世界渲染器 |       | ⚫        |          |          |
-<<<<<<< HEAD
 | CanvasRenderer| 画布渲染器 |       | ⚫        |          |          |
 | GridMenu | 网格菜单 |       | ⚫         | |          |
 | MultipleDesktops | 多桌面 |       | ⚫         | |          |
-=======
->>>>>>> 7ab31a2805902c0efd2a9685a4e3a000238af98e
 
 
 ## 架构说明
