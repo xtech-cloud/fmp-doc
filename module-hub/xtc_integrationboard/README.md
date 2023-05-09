@@ -229,26 +229,22 @@ TODO
 			</TabBar>
 			<CoverPicture fitmode="zoom" maxZoomIn="3.0"/>
 			<EventHandler>
-				<OnRefresh>
-					<Subjects>
-						<Subject message="/XTC/Analytics/TrackerRecord">
-							<Parameters>
-								<Parameter key="eventID" value="/XTC/IntegerationBoard/Open" type="string"/>
-								<Parameter key="eventParameter" value='{"uid":"{{uid}}"}' type="string"/>
-							</Parameters>
-						</Subject>
-					</Subjects>
-				</OnRefresh>
-				<OnLike>
-					<Subjects>
-						<Subject message="/XTC/Analytics/TrackerRecord">
-							<Parameters>
-								<Parameter key="eventID" value="/XTC/IntegerationBoard/Like" type="string"/>
-								<Parameter key="eventParameter" value='{"uid":"{{uid}}"}' type="string"/>
-							</Parameters>
-						</Subject>
-					</Subjects>
-				</OnLike>
+				<OnRefreshS>
+                    <Subject message="/XTC/Analytics/TrackerRecord">
+                        <Parameters>
+                            <Parameter key="eventID" value="/XTC/IntegerationBoard/Open" type="string"/>
+                            <Parameter key="eventParameter" value='{"uid":"{{uid}}"}' type="string"/>
+                        </Parameters>
+                    </Subject>
+				</OnRefreshS>
+				<OnLikeS>
+                    <Subject message="/XTC/Analytics/TrackerRecord">
+                        <Parameters>
+                            <Parameter key="eventID" value="/XTC/IntegerationBoard/Like" type="string"/>
+                            <Parameter key="eventParameter" value='{"uid":"{{uid}}"}' type="string"/>
+                        </Parameters>
+                    </Subject>
+				</OnLikeS>
 			</EventHandler>
 		</Style>
 	</Styles>
