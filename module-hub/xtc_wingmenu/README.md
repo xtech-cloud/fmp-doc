@@ -163,6 +163,7 @@ description: 翼形菜单
 ### 配置门户
 
 菜单结构需要在catalog.json中进行配置。
+
 在catalog.json中的sectionS数组中，添加以下内容
 
 ```json
@@ -183,9 +184,13 @@ description: 翼形菜单
 ```
 
 name指定此门户的显示名称
+
 path指定此门户的路径
+
 kvS中的shape指定了该门户的形状，可选值为(middle, edge)，middle形状的门户打开时从中间展开，edge形状的门户打开时从两边展开。
+
 kvS中的banner指定了该门户的条形图，该路径相对于themes目录中的模块名目录。
+
 kvS中的pagination指定了该门户的页呈现形式，可选值为(navigation, filter)。navigation形式的页面，会打开二级菜单后打开内容列表，并在内容列表下方显示返回到二级菜单的按钮。而filter形式的页面，会显示所有的内容列表，内容列表下方的过滤栏用于过滤内容子集，
 
 ### 配置导览式页面
@@ -211,10 +216,15 @@ kvS中的pagination指定了该门户的页呈现形式，可选值为(navigatio
 ```
 
 导览式页面，一个section定义了一个导览菜单。
+
 name指定此菜单的显示名称
+
 path指定此菜单的路径，注意，路径中需要包含对应的门户的路径，例如`/Test1/1`表示在门户/Test1中的导览菜单1。
+
 contentS指定菜单包含的内容列表
+
 kvS中的icon.source指定此菜单的图片的来源，可选值为(assloud://, theme://)，assould://表示图片位于assets文件夹下，theme://表示图片位于themes文件夹下。
+
 kvS中的icon.uri指定此菜单的图片在来源中的相对路径
 
 导览式页面需要确保对应的门户的ksS.pagination的值是navigation
