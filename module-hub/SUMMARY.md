@@ -11,6 +11,7 @@ description: 模块总览
 | AccessNet     | 接入网             | ⚫    | ⚫        | ⚫         | 28003         |
 | Analytics| 统计分析 | ⚫    | ⚫        | ⚫         | 28004 |
 | Assloud       | 资源云             | ⚫    | ⚫        | ⚫         | 28001    |
+| CanvasRenderer| 画布渲染器 |       | ⚫        |          |          |
 | DocumentSee | 文档浏览器 |     | ⚫        |          | |
 | GridMenu | 网格菜单 |       | ⚫         | |          |
 | Hotspot2D     | 二维热点           |       | ⚫        |          |          |
@@ -23,6 +24,7 @@ description: 模块总览
 | MultipleDesktops | 多桌面 |       | ⚫         | |          |
 | PanoramicImageSee | 全景图片浏览器 |     | ⚫        |          |          |
 | Profiler| 性能分析器 |     | ⚫        |          |          |
+| QuickBar | 快捷工具栏 |     | ⚫        |          |          |
 | Repository    | 模块仓库           | ⚫    |           | ⚫         | 28000    |
 | Retrieval| 文件检索 |     |            ⚫         | | |
 | Search | 资源搜索|     | ⚫        |          |          |
@@ -35,9 +37,6 @@ description: 模块总览
 | VRLobby       | VR大厅             |       | ⚫        |          |          |
 | WingMenu | 翼形菜单 |       | ⚫         | |          |
 | WorldRenderer| 世界渲染器 |       | ⚫        |          |          |
-| CanvasRenderer| 画布渲染器 |       | ⚫        |          |          |
-| GridMenu | 网格菜单 |       | ⚫         | |          |
-| MultipleDesktops | 多桌面 |       | ⚫         | |          |
 
 
 ## 架构说明
