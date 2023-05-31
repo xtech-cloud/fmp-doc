@@ -27,6 +27,7 @@ description: 模块总览
 | QuickBar | 快捷工具栏 |     | ⚫        |          |          |
 | Repository    | 模块仓库           | ⚫    |           | ⚫         | 28000    |
 | Retrieval| 文件检索 |     |            ⚫         | | |
+| ProcessInvoker | 程序调用器 |     |            ⚫         | | |
 | Search | 资源搜索|     | ⚫        |          |          |
 | SecretDock | 隐藏功能区|     |   ⚫       |          |          |
 | SideMenu | 侧边栏 |     |   ⚫      |          |          |
