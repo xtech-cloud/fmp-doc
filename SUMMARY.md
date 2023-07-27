@@ -76,3 +76,4 @@
 * [XTC\_CanvasRenderer](module-hub/xtc\_canvasrenderer/README.md)
 * [XTC\_GridMenu](module-hub/xtc\_gridmenu.md)
 * [XTC\_WingMenu](module-hub/xtc\_wingmenu/README.md)
+* [XTC\_ProcessInvoker](module-hub/xtc\_processinvoker/README.md)
