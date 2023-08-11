@@ -178,7 +178,8 @@ description: 翼形菜单
   "kvS": {
     "shape": "edge",
     "banner": "banner-1.png",
-    "pagination":"navigation"
+    "pagination":"navigation",
+    "cover": "cover-1.png",
   }
 }
 ```
@@ -192,6 +193,8 @@ kvS中的shape指定了该门户的形状，可选值为(middle, edge)，middle�
 kvS中的banner指定了该门户的条形图，该路径相对于themes目录中的模块名目录。
 
 kvS中的pagination指定了该门户的页呈现形式，可选值为(navigation, filter)。navigation形式的页面，会打开二级菜单后打开内容列表，并在内容列表下方显示返回到二级菜单的按钮。而filter形式的页面，会显示所有的内容列表，内容列表下方的过滤栏用于过滤内容子集，
+
+kvS.cover字段可配置门户展开时显示的封面图，该路径相对于themes目录中的模块名目录，仅edge形状的门户有效
 
 ### 配置导览式页面
 
@@ -210,7 +213,8 @@ kvS中的pagination指定了该门户的页呈现形式，可选值为(navigatio
   ],
   "kvS": {
     "icon.source": "theme://",
-    "icon.uri": "icon-1.png"
+    "icon.uri": "icon-1.png",
+    "cover": "cover-1-1.png"
   }
 }
 ```
@@ -226,6 +230,8 @@ contentS指定菜单包含的内容列表
 kvS中的icon.source指定此菜单的图片的来源，可选值为(assloud://, theme://)，assould://表示图片位于assets文件夹下，theme://表示图片位于themes文件夹下。
 
 kvS中的icon.uri指定此菜单的图片在来源中的相对路径
+
+kvS.cover字段可配置菜单打开时显示的封面图，该路径相对于themes目录中的模块名目录，仅配置为edge和navigation的门户有效
 
 导览式页面需要确保对应的门户的ksS.pagination的值是navigation
 
@@ -263,3 +269,6 @@ contentS指定菜单包含的内容列表
 
 ## 更新日志
 
+### 0.2.0 (2023/8/11)
+
+- 支持配置右面版封面
