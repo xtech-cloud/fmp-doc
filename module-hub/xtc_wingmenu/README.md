@@ -194,7 +194,7 @@ kvS中的banner指定了该门户的条形图，该路径相对于themes目录�
 
 kvS中的pagination指定了该门户的页呈现形式，可选值为(navigation, filter)。navigation形式的页面，会打开二级菜单后打开内容列表，并在内容列表下方显示返回到二级菜单的按钮。而filter形式的页面，会显示所有的内容列表，内容列表下方的过滤栏用于过滤内容子集，
 
-kvS.cover字段可配置门户展开时显示的封面图，该路径相对于themes目录中的模块名目录，仅edge形状的门户有效
+kvS.cover字段可配置门户展开时显示的封面图(600x600)，该路径相对于themes目录中的模块名目录，仅edge形状的门户有效
 
 ### 配置导览式页面
 
@@ -231,7 +231,7 @@ kvS中的icon.source指定此菜单的图片的来源，可选值为(assloud://,
 
 kvS中的icon.uri指定此菜单的图片在来源中的相对路径
 
-kvS.cover字段可配置菜单打开时显示的封面图，该路径相对于themes目录中的模块名目录，仅配置为edge和navigation的门户有效
+kvS.cover字段可配置菜单打开时显示的封面图(600x600)，该路径相对于themes目录中的模块名目录，仅配置为edge和navigation的门户有效
 
 导览式页面需要确保对应的门户的ksS.pagination的值是navigation
 
