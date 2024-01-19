@@ -718,7 +718,7 @@ TODO
 翻转卡片的版式具有一个过场阶段(Splash)，此阶段所有节点显示一张过场图片，此图片位于themes文件夹中，对应的格式为
 
 ```
-flipcard.splash.{layerpath}#{index}.png
+flipcard.splash.{layerpath}-{index}.png
 ```
 
 其中layerpath对应catalog中的path字段,index对应节点的序号（从1开始）。其中layerpath中的"/"符号需要替换为"_"。
@@ -726,9 +726,9 @@ flipcard.splash.{layerpath}#{index}.png
 例如catalog中的path为"/Demoshow"，此版式具有3行x5列个节点，那么每个节点对应的过场图片如下
 
 ```
-flipcard.splash._Demoshow#1.png
+flipcard.splash._Demoshow-1.png
 ...
-flipcard.splash._Demoshow#15.png
+flipcard.splash._Demoshow-15.png
 ```
 
 #### 虚拟模式（Dummy）
