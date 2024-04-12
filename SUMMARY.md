@@ -73,6 +73,7 @@
 * [XTC\_AccessNet](module-hub/xtc\_accessnet/README.md)
 * [XTC\_Analytics](module-hub/xtc\_analytics/README.md)
 * [XTC\_ImageSee](module-hub/xtc\_imagesee/README.md)
+* [XTC\_ImageAtlas3D](module-hub/xtc\_imageatlas3d/README.md)
 * [XTC\_VideoSee](module-hub/xtc\_videosee/README.md)
 * [XTC\_CanvasRenderer](module-hub/xtc\_canvasrenderer/README.md)
 * [XTC\_GridMenu](module-hub/xtc\_gridmenu.md)
