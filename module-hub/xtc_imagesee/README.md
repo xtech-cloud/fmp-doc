@@ -29,13 +29,16 @@ TODO
   <GRPC address="https://localhost:19000"/>
   <!-- 样式列表
       name: 名称
+      Background: 背景层
+      ToolBar.maxScale: 图片的最大放大倍数
       ToolBar.visible: 工具栏可见行，可选值为[auto, alwaysOn, alwaysOff]
+      Pending.size: 加载提示图片的尺寸
     -->
   <Styles>
     <Style name="default">
-      <Background visible="true" color="#00000088"/>
-      <Pending image="Pending.png"/>
-      <ToolBar visible="auto">
+      <Background visible="true" color="#333333FF"/>
+      <Pending image="Pending.png" size="160"/>
+      <ToolBar visible="auto" maxScale="4.0">
         <Anchor horizontal="right" vertical="bottom" marginH="36" marginV="24"/>
       </ToolBar>
     </Style>
@@ -80,6 +83,10 @@ TODO
 
 
 ## 更新日志
+
+### 0.7.0
+
+* 修改：更新ui为UI KIT
 
 ### 0.5.0
 
