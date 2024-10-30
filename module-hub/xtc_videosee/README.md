@@ -2,19 +2,18 @@
 description: 视频播放器
 ---
 
-# XTC\_VideoSee
+# XTC_VideoSee
 
 ## 术语约定
 
 TODO
-
 
 ## 配置说明
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <MyConfig version="1.0">
-	<!-- UI 
+	<!-- UI
       visible: 预加载完成后是否显示
       slot: ui根节点在主Canvas中的挂载路径
     -->
@@ -43,6 +42,8 @@ TODO
       ToolBar.ButtonLoop.icon: 循环按钮的图片，建议大小和ToolBar.Anchor.height一致
       ToolBar.ButtonPlay.icon: 开始按钮的图片,建议大小和ToolBar.Anchor.height一致
       ToolBar.ButtonPause.icon: 暂停按钮的图片,建议大小和ToolBar.Anchor.height一致
+      ToolBar.ButtonClose.visible: 关闭按钮是否显示
+      ToolBar.ButtonClose.OnClickSubjects: 关闭按钮关闭时发布的消息列表
     -->
 	<Styles>
 		<Style name="default" muted="false">
@@ -77,6 +78,16 @@ TODO
 						<Anchor width="48" height="48"/>
 					</Handle>
 				</SliderVolume>
+				<ButtonClose icon="btnClose_default.png" visible="false">
+					<OnClickSubjects>
+						<Subject message="/XTC/VideoSee/Close">
+							<Parameters>
+								<Parameter key="uid" value="default" type="string"/>
+								<Parameter key="delay" value="0" type="float"/>
+							</Parameters>
+						</Subject>
+					</OnClickSubjects>
+				</ButtonClose>
 			</ToolBar>
 		</Style>
 		<Style name="small">
@@ -147,28 +158,28 @@ TODO
 
 ## 消息订阅
 
-
 ## 依赖插件
-
 
 ## 更新日志
 
+### 1.0.0
+
+[更新] 支持配置关闭按钮
+
 ### 0.6.0
 
-[更新] 升级框架到1.84.0
-[新增] 添加muted配置参数
+[更新] 升级框架到 1.84.0
+[新增] 添加 muted 配置参数
 
 ### 0.5.1
 
-* 修改：使用PointerDown事件取代Slider事件
-* 修改：在点击进度条后会延迟0.3秒后播放，更顺滑的使用拖拽
+- 修改：使用 PointerDown 事件取代 Slider 事件
+- 修改：在点击进度条后会延迟 0.3 秒后播放，更顺滑的使用拖拽
 
 ### 0.5.0
 
-* 修改：更新框架到1.83.0
+- 修改：更新框架到 1.83.0
 
 ### 0.3.0
 
-* 新增：默认是用1080P样式
-
-
+- 新增：默认是用 1080P 样式
